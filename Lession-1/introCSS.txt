@@ -1,0 +1,27 @@
+Q1: What is CSS?
+A:  CSS (Cascading Style Sheets) ek language hai jo HTML ko style karti hai.
+
+Q2: 3 ways to use CSS?
+A:  1. Inline css --- 2. Internal css   --- 3. External css
+
+    Example: 
+    * {
+        color: red;
+    }
+
+    selector {
+        property: value;
+    }
+
+    Selector = kis element/tag ko style karna hai
+    Property = kya change karna hai (color, font, background)
+    Value = kitna change karna hai (red, 20px, green)
+
+Q3: CSS Selectors kya hotay hain?
+A:  Selectors ka kaam hota hai HTML ke kisi specific element ko select karna aur us par CSS apply karna.
+
+1 - Normal Selectors (Element Selector, Class Selector, Id Selector, Universal Selector, Group Selector)
+2 - Relationship Selectors (Descendent Selector, Child Selector, Adjacent Sibiling Selector, General Sibiling Selector)
+3 - Attribute Selectors (Attribute Selector)
+4 - Pseudo Class Selectors (Hover Selector, Focus Selector, First Child Selector, Last Child Selector, nth Child Selector)
+5 - Pseudo Element Selectors (Before Selector, After Selector, First Letter Selector)
